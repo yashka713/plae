@@ -1,0 +1,33 @@
+/* nunito */
+@font-face {
+    font-family: 'nunitolight';
+    src: url('../fonts/nunito-light-webfont.woff2') format('woff2'),
+    url('../fonts/nunito-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nunitoregular';
+    src: url('../fonts/nunito-regular-webfont.woff2') format('woff2'),
+    url('../fonts/nunito-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* yantramanav */
+@font-face {
+    font-family: 'yantramanavlight';
+    src: url('../fonts/yantramanav-light-webfont.woff2') format('woff2'),
+    url('../fonts/yantramanav-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'yantramanavthin';
+    src: url('../fonts/yantramanav-thin-webfont.woff2') format('woff2'),
+    url('../fonts/yantramanav-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
