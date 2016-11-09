@@ -19,10 +19,51 @@
     .about-paragraph {
         margin: 24px 0 0 0;
         padding: 5px;
+        transition: 0.7s;
     }
 
     .about-paragraph > br {
         display: none;
     }
+
     /* reviewFirst */
+    .reviewFirst-rightTextBlock{
+        width: 90%;
+        margin-top: 10px;
+        transition: 0.7s;
+    }
+    .reviewFirst-rightTitle {
+        margin: 0 0 0 16px;
+        transition: 0.7s;
+    }
+    .quoteOpen-reviewFirst--position{
+        top: 0;
+        left: 51px;
+        transition: 0.7s;
+    }
+    .quoteClose-reviewFirst--position {
+        bottom: -12px;
+        right: 36px;
+        transition: 0.7s;
+    }
+    .reviewFirst-rightAuthor{
+        margin-top: 30px;
+        transition: 0.7s;
+    }
+    /* reviewLast */
+    .reviewLast-textWrapper{
+        margin-top: 140px;
+        transition: 0.7s;
+
+    }
+    .quoteOpen-reviewLast--position {
+        top: -20px;
+        left: 55px;
+        transition: 0.7s;
+    }
+    .quoteClose-reviewLast--position {
+        bottom: -20px;
+        right: 50px;
+        transition: 0.7s;
+    }
 }

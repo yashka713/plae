@@ -23,6 +23,7 @@
     background-color: red;
     display: inline-block;
     margin-top: 15px;
+    z-index: 1000;
 }
 .menu-active{
     width: 11px;
@@ -125,6 +126,7 @@ a.header-inputBtn {
     font-size: 1.9em;
     text-align: center;
     margin: 117px 0 0 -2px;
+    transition: 0.7s;
 }
 .about-leftText{
     margin: 35px auto;
@@ -137,6 +139,7 @@ a.header-inputBtn {
     display: block;
     margin: 24px 0 0 -7px;
     line-height: 24px;
+    transition: 0.7s;
 }
 
 .about-right{
@@ -150,7 +153,7 @@ a.header-inputBtn {
 }
 
 /* Charlie review (first)*/
-.reviewFirst{
+.reviewLast {
     clear: both;
     content: "";
 }
@@ -159,10 +162,14 @@ a.header-inputBtn {
     float: left;
     margin-top: -2px;
 }
+.reviewFirst-left img{
+    width: 100%;
+    height: 100%;
+}
 .reviewFirst-right{
     float: right;
     width: 50%;
-    margin: 80px 0 0 0px;
+    margin: 80px 0 0 0;
 }
 .reviewFirst-rightTitle{
     font-family: nunitolight, sans-serif;
@@ -170,33 +177,42 @@ a.header-inputBtn {
     text-align: center;
     margin: 116px 0 0 16px;
     font-weight: bolder;
+    transition: 0.7s;
+}
+.reviewFirst-textWrapper{
+    position: relative;
 }
 .reviewFirst-rightText{
     font-family: yantramanavthin, sans-serif;
     font-size: 1.42em;
-    margin: 14px 0 0 58px;
+    margin: 14px 0 0 57px;
     line-height: 30px;
     display: inline-block;
     text-align: center;
 }
 .quoteOpen-reviewFirst--position{
-    margin: 77px 0 0 151px;
+    top: -27px;
+    left: 151px;
+    transition: 0.7s;
 }
 .reviewFirst-rightTextBlock{
     width: 420px;
-    margin: 10px auto;
+    margin: 105px auto 0;
+    transition: 0.7s;
 }
 .quoteClose-reviewFirst--position{
-    margin: -15px 0 0 479px;
-    position: absolute;
+    bottom: -12px;
+    right: 136px;
+    transition: 0.7s;
 }
 
 .reviewFirst-rightAuthor{
     font-family: yantramanavthin, sans-serif;
     font-size: 1.259em;
-    margin: 92px 0 0 -12px;
+    margin: 91px 0 0 -12px;
     line-height: 30px;
     text-align: center;
+    transition: 0.7s;
 }
 
 /* Quote */
@@ -205,10 +221,68 @@ a.header-inputBtn {
     height: 16px;
     background-image: url(../img/open.png);
     display: inline-block;
+    position: absolute;
 }
 .quoteClose{
     width: 25px;
     height: 16px;
     background-image: url(../img/close.png);
     display: inline-block;
+    position: absolute;
 }
+
+/* Edie review (last)*/
+
+.reviewLast{
+    clear: both;
+    content: "";
+}
+.reviewLast-left{
+    width: 50%;
+    float: left;
+}
+.reviewLast-right{
+    width: 50%;
+    float: right;
+    margin-top: -2px;
+}
+.reviewLast-right img{
+    width: 100%;
+    height: 100%;
+}
+
+.reviewLast-textWrapper{
+    margin: 310px auto 0;
+    position: relative;
+    transition: 0.7s;
+}
+.reviewLast-leftText{
+    font-family: yantramanavthin, sans-serif;
+    font-size: 1.456em;
+    margin: 0 0 0 5px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+.reviewLast-author{
+    font-family: yantramanavthin, sans-serif;
+    font-size: 1.259em;
+    margin: 91px 0 0 -25px;
+    line-height: 30px;
+    text-align: center;
+}
+.reviewLast-leftTextBlock{
+    margin: 0 auto;
+    width: 300px;
+    display: block;
+}
+.quoteOpen-reviewLast--position{
+    top: -41px;
+    left: 145px;
+}
+.quoteClose-reviewLast--position{
+    bottom: -12px;
+    right: 145px;
+}
+
+
