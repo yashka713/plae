@@ -10,13 +10,14 @@
     right: 85px;
     height: 50px;
 }
-.menu-block{
+
+.menu-block {
     width: 100%;
     height: 100%;
     position: absolute;
 }
 
-.menu-item{
+.menu-item {
     width: 8px;
     height: 8px;
     border-radius: 5px;
@@ -25,11 +26,13 @@
     margin-top: 15px;
     z-index: 1000;
 }
-.menu-active{
+
+.menu-active {
     width: 11px;
     height: 11px;
     margin-bottom: 5px;
 }
+
 /* HEADER */
 
 .header .wrapper {
@@ -58,7 +61,7 @@
     font-size: 3.795em;
     text-align: center;
     font-family: nunitolight, sans-serif;
-    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.79)
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.79)
 }
 
 .header-text {
@@ -66,7 +69,7 @@
     text-align: center;
     font-size: 1.26em;
     font-family: yantramanavlight, sans-serif;
-    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.79)
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.79)
 }
 
 .header-text--firstLine {
@@ -117,21 +120,24 @@ a.header-inputBtn {
 
 /* about */
 
-.about-left{
+.about-left {
     width: 50%;
     float: left;
 }
-.about-leftTitle{
+
+.about-leftTitle {
     font-family: nunitolight, sans-serif;
     font-size: 1.9em;
     text-align: center;
     margin: 117px 0 0 -2px;
     transition: 0.7s;
 }
-.about-leftText{
+
+.about-leftText {
     margin: 35px auto;
     width: 400px;
 }
+
 .about-paragraph {
     font-family: yantramanavthin, sans-serif;
     font-size: 1.125em;
@@ -142,36 +148,41 @@ a.header-inputBtn {
     transition: 0.7s;
 }
 
-.about-right{
+.about-right {
     width: 50%;
     float: right;
 }
-.about-rightImg{
+
+.about-rightImg {
     width: 100%;
     height: 800px;
 
 }
 
 /* Charlie review (first)*/
-.reviewLast {
+.reviewFirst {
     clear: both;
     content: "";
 }
-.reviewFirst-left{
+
+.reviewFirst-left {
     width: 50%;
     float: left;
     margin-top: -2px;
 }
-.reviewFirst-left img{
+
+.reviewFirst-left img {
     width: 100%;
     height: 100%;
 }
-.reviewFirst-right{
+
+.reviewFirst-right {
     float: right;
     width: 50%;
     margin: 80px 0 0 0;
 }
-.reviewFirst-rightTitle{
+
+.reviewFirst-rightTitle {
     font-family: nunitolight, sans-serif;
     font-size: 1.9em;
     text-align: center;
@@ -179,10 +190,12 @@ a.header-inputBtn {
     font-weight: bolder;
     transition: 0.7s;
 }
-.reviewFirst-textWrapper{
+
+.reviewFirst-textWrapper {
     position: relative;
 }
-.reviewFirst-rightText{
+
+.reviewFirst-rightText {
     font-family: yantramanavthin, sans-serif;
     font-size: 1.42em;
     margin: 14px 0 0 57px;
@@ -190,23 +203,8 @@ a.header-inputBtn {
     display: inline-block;
     text-align: center;
 }
-.quoteOpen-reviewFirst--position{
-    top: -27px;
-    left: 151px;
-    transition: 0.7s;
-}
-.reviewFirst-rightTextBlock{
-    width: 420px;
-    margin: 105px auto 0;
-    transition: 0.7s;
-}
-.quoteClose-reviewFirst--position{
-    bottom: -12px;
-    right: 136px;
-    transition: 0.7s;
-}
 
-.reviewFirst-rightAuthor{
+.reviewFirst-rightAuthor {
     font-family: yantramanavthin, sans-serif;
     font-size: 1.259em;
     margin: 91px 0 0 -12px;
@@ -215,15 +213,35 @@ a.header-inputBtn {
     transition: 0.7s;
 }
 
+.reviewFirst-rightTextBlock {
+    width: 420px;
+    margin: 105px auto 0;
+    transition: 0.7s;
+}
+
+/* quote position reviewFirst*/
+.quoteOpen-reviewFirst--position {
+    top: -27px;
+    left: 151px;
+    transition: 0.7s;
+}
+
+.quoteClose-reviewFirst--position {
+    bottom: -12px;
+    right: 136px;
+    transition: 0.7s;
+}
+
 /* Quote */
-.quoteOpen{
+.quoteOpen {
     width: 26px;
     height: 16px;
     background-image: url(../img/open.png);
     display: inline-block;
     position: absolute;
 }
-.quoteClose{
+
+.quoteClose {
     width: 25px;
     height: 16px;
     background-image: url(../img/close.png);
@@ -233,30 +251,34 @@ a.header-inputBtn {
 
 /* Edie review (last)*/
 
-.reviewLast{
+.reviewLast {
     clear: both;
     content: "";
 }
-.reviewLast-left{
+
+.reviewLast-left {
     width: 50%;
     float: left;
 }
-.reviewLast-right{
+
+.reviewLast-right {
     width: 50%;
     float: right;
     margin-top: -2px;
 }
-.reviewLast-right img{
+
+.reviewLast-right img {
     width: 100%;
     height: 100%;
 }
 
-.reviewLast-textWrapper{
+.reviewLast-textWrapper {
     margin: 310px auto 0;
     position: relative;
     transition: 0.7s;
 }
-.reviewLast-leftText{
+
+.reviewLast-leftText {
     font-family: yantramanavthin, sans-serif;
     font-size: 1.456em;
     margin: 0 0 0 5px;
@@ -264,25 +286,104 @@ a.header-inputBtn {
     display: inline-block;
     text-align: center;
 }
-.reviewLast-author{
+
+.reviewLast-author {
     font-family: yantramanavthin, sans-serif;
     font-size: 1.259em;
     margin: 91px 0 0 -25px;
     line-height: 30px;
     text-align: center;
 }
-.reviewLast-leftTextBlock{
+
+.reviewLast-leftTextBlock {
     margin: 0 auto;
     width: 300px;
     display: block;
 }
-.quoteOpen-reviewLast--position{
+
+/* quote position reviewLast*/
+.quoteOpen-reviewLast--position {
     top: -41px;
     left: 145px;
 }
-.quoteClose-reviewLast--position{
+
+.quoteClose-reviewLast--position {
     bottom: -12px;
     right: 145px;
 }
 
+.empty {
+    clear: both;
+    height: 1595px;
+    background-color: #00b3ee
+}
 
+/* address */
+.address-title {
+    text-align: center;
+    font-family: nunitolight, sans-serif;
+    font-size: 1.9em;
+    font-weight: bold;
+    margin: 92px 0 0 -9px;
+}
+
+.address-text {
+    text-align: center;
+    font-family: yantramanavlight, sans-serif;
+    font-size: 1.1em;
+    margin: 21px 0 0 0;
+}
+
+.address-block {
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.address-shop {
+    margin: 46px 0 0 62px;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+    content: "";
+}
+
+/* contact */
+
+.contact-title {
+    text-align: center;
+    font-family: nunitolight, sans-serif;
+    font-size: 1.55em;
+    font-weight: bold;
+    margin: 84px 0 0 0;
+}
+
+.contact-text {
+    text-align: center;
+    font-family: yantramanavlight, sans-serif;
+    font-size: 1.1em;
+    margin: 17px 0 0 -1px
+}
+
+.contact-block {
+    margin: 47px auto;
+    width: 400px;
+}
+
+.contact-email {
+    color: #20ab50;
+    font-family: yantramanavthin, sans-serif;
+    font-size: 1.135em;
+    margin: 0 0 0 15px;
+}
+
+.contact-phone {
+    font-family: yantramanavthin, sans-serif;
+    margin-left: 104px;
+    font-size: 1.135em;
+}
