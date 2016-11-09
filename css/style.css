@@ -1,41 +1,67 @@
-.wrapper{
+.wrapper {
     max-width: 1280px;
 }
 
 /* MENU */
+.menu {
+    position: fixed;
+    top: 316px;
+    width: 13px;
+    right: 85px;
+    height: 50px;
+}
+.menu-block{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
 
+.menu-item{
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: red;
+    display: inline-block;
+    margin-top: 15px;
+}
+.menu-active{
+    width: 11px;
+    height: 11px;
+    margin-bottom: 5px
+}
 
 /* HEADER */
 
-.header .wrapper{
+.header .wrapper {
     background: url(../img/header-bg.jpg);
     width: 100%;
     height: 800px;
 }
-.wrapper-bgShadow{
-    background: rgba(0,0,0, 0.1);
+
+.wrapper-bgShadow {
+    background: rgba(0, 0, 0, 0.1);
     width: 100%;
     height: 100%;
 }
 
-.header-logo img{
+.header-logo img {
     width: 11%;
     margin: 32px 0 0 36px;
 }
 
-.header-description{
+.header-description {
     margin: 187px 0 0 0;
     color: white;
 }
 
-.header-title{
+.header-title {
     font-size: 3.795em;
     text-align: center;
     font-family: nunitolight, sans-serif;
     text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.79)
 }
 
-.header-text{
+.header-text {
 
     text-align: center;
     font-size: 1.26em;
@@ -43,23 +69,24 @@
     text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.79)
 }
 
-.header-text--firstLine{
+.header-text--firstLine {
     margin: 28px 0 0 0;
 }
 
-.header-text--lastLine{
+.header-text--lastLine {
     margin: 7px 0 0 0;
 }
 
-.header-inputBlock{
+.header-inputBlock {
     margin: 59px 0 0 0;
 }
-.header-inputBlock--middle{
+
+.header-inputBlock--middle {
     width: 475px;
     margin: 0 auto;
 }
 
-.header-inputMail{
+.header-inputMail {
     width: 285px;
     height: 45px;
     font-size: 1.19em;
@@ -69,13 +96,14 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-.header-inputBtn{
+
+.header-inputBtn {
     width: 82px;
     margin-left: -6px;
     display: inline-block;
 }
 
-a.header-inputBtn{
+a.header-inputBtn {
     background-color: #20ab50;
     color: white;
     font-family: nunitoregular, sans-serif;
