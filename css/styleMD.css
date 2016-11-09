@@ -1,0 +1,28 @@
+/* media query for MD-size */
+
+@media screen and (max-width: 992px) {
+    /* MENU */
+    .menu {
+        display: none;
+    }
+
+    /* about */
+    .about-leftText {
+        width: 100%;
+        margin: 24px 0 0 0;
+    }
+
+    .about-leftTitle {
+        margin: 17px 0 0 0;
+    }
+
+    .about-paragraph {
+        margin: 24px 0 0 0;
+        padding: 5px;
+    }
+
+    .about-paragraph > br {
+        display: none;
+    }
+    /* reviewFirst */
+}

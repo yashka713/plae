@@ -27,13 +27,12 @@
 .menu-active{
     width: 11px;
     height: 11px;
-    margin-bottom: 5px
+    margin-bottom: 5px;
 }
-
 /* HEADER */
 
 .header .wrapper {
-    background: url(../img/header-bg.jpg);
+    background: url(../img/header-bg.jpg) center;
     width: 100%;
     height: 800px;
 }
@@ -45,7 +44,7 @@
 }
 
 .header-logo img {
-    width: 11%;
+    width: 142px;
     margin: 32px 0 0 36px;
 }
 
@@ -113,4 +112,103 @@ a.header-inputBtn {
     border-bottom-right-radius: 20px;
     text-decoration: none;
     padding: 14px 41px;
+}
+
+/* about */
+
+.about-left{
+    width: 50%;
+    float: left;
+}
+.about-leftTitle{
+    font-family: nunitolight, sans-serif;
+    font-size: 1.9em;
+    text-align: center;
+    margin: 117px 0 0 -2px;
+}
+.about-leftText{
+    margin: 35px auto;
+    width: 400px;
+}
+.about-paragraph {
+    font-family: yantramanavthin, sans-serif;
+    font-size: 1.125em;
+    text-align: justify;
+    display: block;
+    margin: 24px 0 0 -7px;
+    line-height: 24px;
+}
+
+.about-right{
+    width: 50%;
+    float: right;
+}
+.about-rightImg{
+    width: 100%;
+    height: 800px;
+
+}
+
+/* Charlie review (first)*/
+.reviewFirst{
+    clear: both;
+    content: "";
+}
+.reviewFirst-left{
+    width: 50%;
+    float: left;
+    margin-top: -2px;
+}
+.reviewFirst-right{
+    float: right;
+    width: 50%;
+    margin: 80px 0 0 0px;
+}
+.reviewFirst-rightTitle{
+    font-family: nunitolight, sans-serif;
+    font-size: 1.9em;
+    text-align: center;
+    margin: 116px 0 0 16px;
+    font-weight: bolder;
+}
+.reviewFirst-rightText{
+    font-family: yantramanavthin, sans-serif;
+    font-size: 1.42em;
+    margin: 14px 0 0 58px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+.quoteOpen-reviewFirst--position{
+    margin: 77px 0 0 151px;
+}
+.reviewFirst-rightTextBlock{
+    width: 420px;
+    margin: 10px auto;
+}
+.quoteClose-reviewFirst--position{
+    margin: -15px 0 0 479px;
+    position: absolute;
+}
+
+.reviewFirst-rightAuthor{
+    font-family: yantramanavthin, sans-serif;
+    font-size: 1.259em;
+    margin: 92px 0 0 -12px;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* Quote */
+.quoteOpen{
+    width: 26px;
+    height: 16px;
+    background-image: url(../img/open.png);
+    display: inline-block;
+}
+.quoteClose{
+    width: 25px;
+    height: 16px;
+    background-image: url(../img/close.png);
+    display: inline-block;
 }

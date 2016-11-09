@@ -3,24 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>Ronis</title>
+    <title>Plae</title>
     <link rel="shortcut icon" href="icon.gif">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <!--Style for media query-->
+    <link rel="stylesheet" href="css/styleMD.css">
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
 <body>
-<nav class="menu">
+<nav class="menu" id="menu">
     <div class="wrapper">
         <div class="menu-block">
-            <a href="#header" class="menu-link"><span class="menu-item menu-active"></span></a>
-            <a href="#header" class="menu-link"><span class="menu-item"></span></a>
-            <a href="#header" class="menu-link"><span class="menu-item"></span></a>
+            <a href="#header" class="menu-link "><span class="menu-item"></span></a>
+            <a href="#about" class="menu-link "><span class="menu-item"></span></a>
+            <a href="#reviewFirst" class="menu-link"><span class="menu-item"></span></a>
             <a href="#header" class="menu-link"><span class="menu-item"></span></a>
             <a href="#header" class="menu-link"><span class="menu-item"></span></a>
             <a href="#header" class="menu-link"><span class="menu-item"></span></a>
@@ -33,7 +35,9 @@
         </div>
     </div>
 </nav>
-<header class="header" id="header">
+<header class="header">
+    <a id="header"></a>
+
     <div class="wrapper">
         <div class="wrapper-bgShadow">
             <div class="header-logo">
@@ -54,8 +58,66 @@
                     <a href="#" class="header-inputBtn">Sign Up</a>
                 </div>
             </div>
-            div.
         </div>
     </div>
 </header>
+<section class="about">
+    <a id='about'></a>
+
+    <div class="wrapper">
+        <div class="about-left col-md-6">
+            <h2 class="about-leftTitle">About Plae</h2>
+
+            <div class="about-leftText">
+                <span class="about-paragraph">Previously a Designer for Puma and Adidas, Head<br>Designer Ryan Ringholz
+                    has started a new revolution in<br>kids trainers. Using technology usually reserved for
+                    elite<br>athletes, Plae creates shoes designed especially for a<br>child’s foot.
+                </span>
+                <span class="about-paragraph">
+                    Because kids feet are always growing, their shoes should<br>accommodate leaving the cartilage and
+                    fledgling bone<br>room to grow its own way. The interchangeable tabs<br>adjust to accommodate thinner,
+                    wider or thicker feet and<br>nearly all Plae shoes can fit an AFO orthotic brace.
+                </span>
+                <span class="about-paragraph">
+                    With their dynamic traction, little feet can feel the ground<br>beneath them and get a grip on it.
+                    The rest is designed<br>to elite athlete standards: super shock absorption,<br>durable toe guards, and
+                    wicking, washable anti-microbial<br>inserts.
+                </span>
+                <span class="about-paragraph">
+                    With every shoe, Plae sources responsible, recycled, and<br>non-toxic materials, and makes sure
+                    manufacturing and<br>labour is fair and child-free.
+                </span>
+            </div>
+        </div>
+        <div class="about-right col-md-6">
+            <img src="img/About.jpg" alt="About" class="about-rightImg">
+        </div>
+    </div>
+</section>
+<section class="reviewFirst">
+    <a id="reviewFirst"></a>
+
+    <div class="wrapper">
+        <div class="reviewFirst-left">
+            <img src="img/Charlie.jpg" alt="Charlie">
+        </div>
+        <div class="reviewFirst-right">
+            <p class="reviewFirst-rightTitle">What our customers say</p>
+            <span class="quoteOpen quoteOpen-reviewFirst--position"></span>
+            <div class="reviewFirst-rightTextBlock">
+            <span class="reviewFirst-rightText">
+                I like them because they are very<br>comfy and soft inside. They are<br>really
+                light which means I run faster.<br>I like the cool straps that I can<br>change
+            </span>
+            </div>
+            <span class="quoteClose quoteClose-reviewFirst--position"></span>
+            <p class="reviewFirst-rightAuthor">Charlie (age 8)</p>
+        </div>
+    </div>
+</section>
+
+<!--JQuery-->
+<script src="js/jquery-2.2.3.min.js"></script>
+<!--Custom JS-->
+<script src="js/script.js"></script>
 </body>
