@@ -93,7 +93,8 @@
     width: 475px;
     margin: 0 auto;
 }
-.inputMail{
+
+.inputMail {
     width: 285px;
     height: 45px;
     font-size: 1.19em;
@@ -103,11 +104,13 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-.inputBtn{
+
+.inputBtn {
     width: 82px;
     margin-left: -6px;
     display: inline-block;
 }
+
 a.inputBtn {
     background-color: #20ab50;
     color: white;
@@ -320,6 +323,66 @@ a.inputBtn {
     background-color: #00b3ee
 }
 
+/* textBlock */
+.slider-textBlock {
+    margin: 0;
+}
+
+.slider-title {
+    text-align: center;
+    font-family: nunitolight, sans-serif;
+    font-size: 1.9em;
+    font-weight: bold;
+    margin: 80px 0 0 28px;
+}
+
+.slider-text {
+    text-align: center;
+    font-family: yantramanavlight, sans-serif;
+    font-size: 1.1em;
+    margin: 20px 0 0 28px;
+}
+
+/* slider */
+
+#sliderFirst {
+    position: relative;
+    margin: 100px auto;
+    padding: 5px;
+    width: 660px;
+    height: 360px;
+}
+
+#sliderFirst__img {
+    margin: 33px 0 0 97px;
+    width: 446px;
+    height: 237px;
+    background-color: white;
+    background-image: url("../img/shoes/Ty_N_Steel.jpg");
+}
+
+#sliderFirst__left-button {
+    left: -95px;
+    position: absolute;
+    top: 153px;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    background-image: url(../img/left.png);
+    cursor: pointer;
+}
+
+#sliderFirst__right-button {
+    right: -93px;
+    position: absolute;
+    top: 153px;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    background-image: url(../img/right.png);
+    cursor: pointer;
+}
+
 /* address */
 .address-title {
     text-align: center;
@@ -350,40 +413,46 @@ a.inputBtn {
     float: left;
     font-family: yantramanavthin, sans-serif;
 }
+
 /* address Block */
-.address-shopHeader{
+.address-shopHeader {
     font-family: nunitoregular, sans-serif;
     font-size: 0.9em;
     padding: 13px 0 0 15px;
 }
 
-.address-shopStreet{
+.address-shopStreet {
     font-family: yantramanavthin, sans-serif;
     font-size: 0.95em;
     padding: 7px 0 0 12px;
 }
-.address-shopCity{
+
+.address-shopCity {
     font-family: yantramanavthin, sans-serif;
     font-size: 0.945em;
     padding: 7px 0 0 14px;
 }
-.address-shopNumber{
+
+.address-shopNumber {
     font-family: yantramanavthin, sans-serif;
     font-size: 0.945em;
     padding: 7px 0 0 14px;
 }
-.address-shopPhone{
+
+.address-shopPhone {
     font-family: yantramanavthin, sans-serif;
     font-size: 0.945em;
     padding: 7px 0 0 13px;
 }
-.address-shopSite{
+
+.address-shopSite {
     font-family: yantramanavthin, sans-serif;
     font-size: 0.94em;
     padding: 14px 0 0 12px;
     color: #1faa50;
 }
-    /* contact */
+
+/* contact */
 
 .contact-title {
     text-align: center;
@@ -419,45 +488,54 @@ a.inputBtn {
 }
 
 /* subscription */
-.subscription{
+.subscription {
     margin: 78px 0 0 0;
 }
-.subscription>.wrapper{
+
+.subscription > .wrapper {
     background-color: #f3f3f3;
 }
-.subscription-description{
+
+.subscription-description {
     padding-top: 134px;
 }
-.subscription-title{
+
+.subscription-title {
     text-align: center;
     font-family: nunitolight, sans-serif;
     font-size: 1.9em;
     font-weight: bold;
     margin: 0 0 0 2px;
 }
-.subscription-text{
+
+.subscription-text {
     text-align: center;
     font-family: yantramanavlight, sans-serif;
     font-size: 1.379em;
     margin: 15px 0 0 1px;
 }
-.subscription-inputBlock{
+
+.subscription-inputBlock {
     margin: 48px 0 0 18px;
     padding-bottom: 113px;
 }
-.subscription-inputBlock--middle{
+
+.subscription-inputBlock--middle {
     margin: 0 auto;
     width: 475px;
 }
-.inputMail--subscription{
+
+.inputMail--subscription {
     padding-left: 43px;
     width: 267px;
 }
-a.inputBtn-subscription{
+
+a.inputBtn-subscription {
     width: 83px;
 }
+
 /* footer */
-.footer-text{
+.footer-text {
     background-color: #dcdcdc;
     padding: 13px 0 12px 36px;
     font-family: yantramanavlight, sans-serif;
