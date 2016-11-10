@@ -2,6 +2,11 @@
     max-width: 1280px;
 }
 
+.clearfix {
+    clear: both;
+    content: "";
+}
+
 /* MENU */
 .menu {
     position: fixed;
@@ -341,16 +346,44 @@ a.inputBtn {
     margin: 46px 0 0 62px;
     width: 150px;
     height: 150px;
-    background-color: red;
+    /*background-color: red;*/
     float: left;
+    font-family: yantramanavthin, sans-serif;
+}
+/* address Block */
+.address-shopHeader{
+    font-family: nunitoregular, sans-serif;
+    font-size: 0.9em;
+    padding: 13px 0 0 15px;
 }
 
-.clearfix {
-    clear: both;
-    content: "";
+.address-shopStreet{
+    font-family: yantramanavthin, sans-serif;
+    font-size: 0.95em;
+    padding: 7px 0 0 12px;
 }
-
-/* contact */
+.address-shopCity{
+    font-family: yantramanavthin, sans-serif;
+    font-size: 0.945em;
+    padding: 7px 0 0 14px;
+}
+.address-shopNumber{
+    font-family: yantramanavthin, sans-serif;
+    font-size: 0.945em;
+    padding: 7px 0 0 14px;
+}
+.address-shopPhone{
+    font-family: yantramanavthin, sans-serif;
+    font-size: 0.945em;
+    padding: 7px 0 0 13px;
+}
+.address-shopSite{
+    font-family: yantramanavthin, sans-serif;
+    font-size: 0.94em;
+    padding: 14px 0 0 12px;
+    color: #1faa50;
+}
+    /* contact */
 
 .contact-title {
     text-align: center;
