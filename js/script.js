@@ -17,13 +17,13 @@ $(document).ready(function(){
 /*slider*/
 var sliderFirst = {
     slides:[
-        {img:'img/shoes/Ty_N_Steel.jpg', title: 'TY', w:446,h:237},
-        {img:'img/shoes/Max_N_Steel_Camo.jpg', title: 'MAX', w:474,h:274},
-        {img:'img/shoes/Emme_S_Pink.jpg', title: 'EMME', w:465,h:237},
-        {img:'img/shoes/Camile_Navy_3Quarter.jpg', title: 'CAMILLE', w:452,h:423},
-        {img:'img/shoes/Noel_Bracken.jpg', title: 'NOEL', w:452,h:350},
-        {img:'img/shoes/Roan_L_White.jpg', title: 'ROAN', w:459,h:235},
-        {img:'img/shoes/Nat_Navy.jpg', title: 'Nat', w:457,h:233}],
+        {img:'img/shoes/Ty_N_Steel.jpg', title: 'TY', w:446,h:237,position:1},
+        {img:'img/shoes/Max_N_Steel_Camo.jpg', title: 'MAX', w:474,h:274,position:2},
+        {img:'img/shoes/Emme_S_Pink.jpg', title: 'EMME', w:465,h:237,position:3},
+        {img:'img/shoes/Camile_Navy_3Quarter.jpg', title: 'CAMILLE', w:452,h:423,position:4},
+        {img:'img/shoes/Noel_Bracken.jpg', title: 'NOEL', w:452,h:350,position:5},
+        {img:'img/shoes/Roan_L_White.jpg', title: 'ROAN', w:459,h:235,position:6},
+        {img:'img/shoes/Nat_Navy.jpg', title: 'Nat', w:457,h:233,position:7}],
     frame: 0, // текущий кадр для отбражения - индекс картинки из массива
     set: function(obj) { // установка нужного фона слайдеру
         var slide = document.getElementById("sliderFirst__img");
@@ -41,6 +41,10 @@ var sliderFirst = {
         slide.style.backgroundImage = "url("+obj.img+")";
         slide.style.width = obj.w+"px";
         slide.style.height = obj.h+"px";
+        var sliderNumber = document.body.getElementsByClassName('slider-number');
+        var sliderName = document.body.getElementsByClassName('slider-name');
+        sliderNumber[0].innerText = obj.position + ' / 7';
+        sliderName[0].innerText = obj.title;
 
     },
     left: function() { // крутим на один кадр влево
