@@ -347,10 +347,10 @@ a.inputBtn {
 
 #sliderFirst {
     position: relative;
-    margin: 100px auto;
+    margin: 100px auto 0;
     padding: 5px;
     width: 660px;
-    height: 360px;
+    height: 465px;
 }
 
 #sliderFirst__img {
@@ -382,7 +382,22 @@ a.inputBtn {
     background-image: url(../img/right.png);
     cursor: pointer;
 }
-
+.slider-description{
+    margin: 101px 0 0 0;
+}
+.slider-name{
+    text-align: center;
+    font-family: nunitolight, sans-serif;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin: -181px 0 0 0px;
+}
+.slider-number{
+    text-align: center;
+    font-family: yantramanavlight, sans-serif;
+    font-size: 1.1em;
+    margin: 32px 0 0 0;
+}
 /* address */
 .address-title {
     text-align: center;
