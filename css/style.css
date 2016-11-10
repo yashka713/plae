@@ -88,8 +88,7 @@
     width: 475px;
     margin: 0 auto;
 }
-
-.header-inputMail {
+.inputMail{
     width: 285px;
     height: 45px;
     font-size: 1.19em;
@@ -99,14 +98,12 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-
-.header-inputBtn {
+.inputBtn{
     width: 82px;
     margin-left: -6px;
     display: inline-block;
 }
-
-a.header-inputBtn {
+a.inputBtn {
     background-color: #20ab50;
     color: white;
     font-family: nunitoregular, sans-serif;
@@ -367,7 +364,7 @@ a.header-inputBtn {
     text-align: center;
     font-family: yantramanavlight, sans-serif;
     font-size: 1.1em;
-    margin: 17px 0 0 -1px
+    margin: 17px 0 0 -1px;
 }
 
 .contact-block {
@@ -386,4 +383,51 @@ a.header-inputBtn {
     font-family: yantramanavthin, sans-serif;
     margin-left: 104px;
     font-size: 1.135em;
+}
+
+/* subscription */
+.subscription{
+    margin: 78px 0 0 0;
+}
+.subscription>.wrapper{
+    background-color: #f3f3f3;
+}
+.subscription-description{
+    padding-top: 134px;
+}
+.subscription-title{
+    text-align: center;
+    font-family: nunitolight, sans-serif;
+    font-size: 1.9em;
+    font-weight: bold;
+    margin: 0 0 0 2px;
+}
+.subscription-text{
+    text-align: center;
+    font-family: yantramanavlight, sans-serif;
+    font-size: 1.379em;
+    margin: 15px 0 0 1px;
+}
+.subscription-inputBlock{
+    margin: 48px 0 0 18px
+}
+.subscription-inputBlock--middle{
+    margin: 0 auto;
+    width: 475px;
+    padding-bottom: 114px;
+}
+.inputMail--subscription{
+    padding-left: 43px;
+    width: 267px;
+}
+a.inputBtn-subscription{
+    width: 83px;
+}
+/* footer */
+.footer-text{
+    background-color: #dcdcdc;
+    padding: ;
+    font-family: yantramanavlight, sans-serif;
+    color: white;
+    font-size: ;
 }
