@@ -26,7 +26,7 @@
     width: 8px;
     height: 8px;
     border-radius: 5px;
-    background-color: red;
+    background-color: grey;
     display: inline-block;
     margin-top: 15px;
     z-index: 1000;
@@ -54,11 +54,11 @@
 
 .header-logo img {
     width: 142px;
-    margin: 32px 0 0 36px;
+    margin: 33px 0 0 36px;
 }
 
 .header-description {
-    margin: 187px 0 0 0;
+    margin: 187px 0 0 2px;
     color: white;
 }
 
@@ -86,17 +86,23 @@
 }
 
 .header-inputBlock {
-    margin: 59px 0 0 0;
+    margin: 57px 0 0 2px;
 }
 
 .header-inputBlock--middle {
-    width: 475px;
+    width: 485px;
     margin: 0 auto;
+}
+.header-mail{
+    margin-left: 5px;
+}
+a.header-input{
+    width: 86px;
 }
 
 .inputMail {
     width: 285px;
-    height: 45px;
+    height: 46px;
     font-size: 1.19em;
     padding-left: 26px;
     font-family: yantramanavlight, sans-serif;
@@ -115,12 +121,12 @@ a.inputBtn {
     background-color: #20ab50;
     color: white;
     font-family: nunitoregular, sans-serif;
-    font-size: 1.25em;
+    font-size: 21px;
     border: none;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     text-decoration: none;
-    padding: 14px 41px;
+    padding: 13px 40px 14px;
 }
 
 /* about */
@@ -145,7 +151,7 @@ a.inputBtn {
 
 .about-paragraph {
     font-family: yantramanavthin, sans-serif;
-    font-size: 1.125em;
+    font-size: 18.3px;
     text-align: justify;
     display: block;
     margin: 24px 0 0 -7px;
@@ -189,7 +195,7 @@ a.inputBtn {
 
 .reviewFirst-rightTitle {
     font-family: nunitolight, sans-serif;
-    font-size: 1.9em;
+    font-size: 30px;
     text-align: center;
     margin: 116px 0 0 16px;
     font-weight: bolder;
@@ -202,8 +208,8 @@ a.inputBtn {
 
 .reviewFirst-rightText {
     font-family: yantramanavthin, sans-serif;
-    font-size: 1.42em;
-    margin: 14px 0 0 57px;
+    font-size: 23px;
+    margin: 14px 0 0 56px;
     line-height: 30px;
     display: inline-block;
     text-align: center;
@@ -285,8 +291,8 @@ a.inputBtn {
 
 .reviewLast-leftText {
     font-family: yantramanavthin, sans-serif;
-    font-size: 1.456em;
-    margin: 0 0 0 5px;
+    font-size: 23px;
+    margin: 0 0 0 8px;
     line-height: 30px;
     display: inline-block;
     text-align: center;
@@ -295,7 +301,7 @@ a.inputBtn {
 .reviewLast-author {
     font-family: yantramanavthin, sans-serif;
     font-size: 1.259em;
-    margin: 91px 0 0 -25px;
+    margin: 91px 0 0 -22px;
     line-height: 30px;
     text-align: center;
 }
@@ -354,7 +360,7 @@ a.inputBtn {
 }
 
 #sliderFirst__img {
-    margin: 33px 0 0 97px;
+    margin: 33px 0 0 99px;
     width: 446px;
     height: 237px;
     background-color: white;
@@ -393,14 +399,14 @@ a.inputBtn {
     font-family: nunitolight, sans-serif;
     font-size: 1.6em;
     font-weight: bold;
-    margin: -181px 0 0 0px;
+    margin: -182.5px 0 0 2px;
 }
 
 .slider-number {
     text-align: center;
     font-family: yantramanavlight, sans-serif;
     font-size: 1.1em;
-    margin: 32px 0 0 0;
+    margin: 32px 0 0 2px;
 }
 
 /* advantages */
@@ -425,7 +431,7 @@ a.inputBtn {
     text-align: center;
     font-family: yantramanavlight, sans-serif;
     font-size: 1.11em;
-    margin: 21px 0 0 29px;
+    margin: 23px 0 0 31px;
 }
 
 .advantages-bgShoes {
@@ -487,7 +493,7 @@ a.inputBtn {
 .advantages-right{
     width: 231px;
     margin-right: 60px;
-    margin-top: 7px;
+    margin-top: 6px;
     float: right;
     z-index: 100;
     margin-left: -199px;
@@ -526,24 +532,28 @@ a.inputBtn {
     text-align: center;
     font-family: yantramanavlight, sans-serif;
     font-size: 1.1em;
-    margin: 21px 0 0 0;
+    margin: 21px 0 0 3px;
 }
 
 .address-block {
     margin-top: 10px;
-    padding-left: 40px;
-    padding-top: 10px;
+    padding-left: 41px;
+    padding-top: 15px;
 }
 
 .address-shop {
-    margin: 46px 0 0 62px;
+    margin: 40px 0 0 62px;
     width: 150px;
     height: 150px;
-    /*background-color: red;*/
     float: left;
     font-family: yantramanavthin, sans-serif;
 }
-
+.addressSRow{
+    margin: 40px 0 0 62px;
+}
+.addressTRow{
+    margin: 47px 0 0 62px;
+}
 /* address Block */
 .address-shopHeader {
     font-family: nunitoregular, sans-serif;
@@ -560,7 +570,7 @@ a.inputBtn {
 .address-shopCity {
     font-family: yantramanavthin, sans-serif;
     font-size: 0.945em;
-    padding: 7px 0 0 14px;
+    padding: 8px 0 0 13px;
 }
 
 .address-shopNumber {
@@ -578,7 +588,7 @@ a.inputBtn {
 .address-shopSite {
     font-family: yantramanavthin, sans-serif;
     font-size: 0.94em;
-    padding: 14px 0 0 12px;
+    padding: 14px 0 0 14px;
     color: #1faa50;
 }
 
@@ -589,7 +599,7 @@ a.inputBtn {
     font-family: nunitolight, sans-serif;
     font-size: 1.55em;
     font-weight: bold;
-    margin: 84px 0 0 0;
+    margin: 89px 0 0 0;
 }
 
 .contact-text {
@@ -652,16 +662,17 @@ a.inputBtn {
 
 .subscription-inputBlock--middle {
     margin: 0 auto;
-    width: 475px;
+    width: 485px;
 }
 
 .inputMail--subscription {
-    padding-left: 43px;
+    padding-left: 42px;
     width: 267px;
+    margin-left: 7px;
 }
 
 a.inputBtn-subscription {
-    width: 83px;
+    width: 86px;
 }
 
 /* footer */
