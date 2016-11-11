@@ -1,5 +1,189 @@
 /* media query for XS-size */
 
 @media screen and (max-width: 544px) {
+    .wrapper {
+        max-width: 552px;
+    }
 
+    /* header */
+    .header-logoImg {
+        margin: 0;
+    }
+
+    .header-logo {
+        margin: 0;
+        text-align: center;
+    }
+
+    .inputMail {
+        width: 230px;
+        border: none;
+        border-radius: 20px;
+    }
+
+    a.inputBtn {
+        border-radius: 20px;
+        margin-top: 25px;
+        padding: 13px 40px 14px;
+    }
+
+    .header-inputBlock--middle {
+        text-align: center;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    /* about */
+    .about {
+        margin-top: 10px;
+    }
+
+    .about > .wrapper {
+        background: url(../img/About.jpg) center;
+        width: 100%;
+        height: 700px;
+    }
+
+    .about-right {
+        display: none;
+    }
+
+    .about-left {
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 700px;
+    }
+
+    span.about-paragraph:nth-child(3) {
+        display: none;
+    }
+
+    span.about-paragraph:nth-child(4) {
+        display: none;
+    }
+
+    /* reviewFirst */
+    .reviewFirst-left {
+        display: none;
+    }
+
+    .reviewFirst-right {
+        background: url(../img/Charlie.jpg) center;
+        width: 100%;
+        height: 550px;
+    }
+
+    .reviewFirst-rightTitle {
+        margin: 15px 0 0 0;
+    }
+
+    .reviewFirst-rightTextBlock {
+        margin-top: 50px;
+        color: white;
+        transition: 0.7s;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .reviewFirst-rightAuthor {
+        transition: 0.7s;
+        color: white;
+    }
+
+    /* reviewLast */
+    .reviewLast {
+        margin: 5px 0 0 0;
+    }
+
+    .reviewLast-right {
+        display: none;
+    }
+
+    .reviewLast-left {
+        float: none;
+        width: 100%;
+        background: url(../img/Edie.jpg) -120px -30px;;
+        color: white;
+    }
+
+    .reviewLast-textWrapper {
+        margin-top: 0;
+        transition: 0.7s;
+    }
+
+    .reviewLast-leftTextBlock {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .reviewLast-leftText {
+        margin: 35px 0 0 0;
+
+    }
+
+    .reviewLast-author {
+        margin: 31px 0 0 0;
+        padding-bottom: 15px;
+    }
+
+    /* slider */
+    #sliderFirst__img {
+        background-position: -33px 0;
+        transform: scale(0.5);
+        margin: 0 0 0 -40px;
+    }
+
+    #sliderFirst {
+        width: 100%;
+        padding: 0;
+    }
+    .slider-description {
+        margin: 31px 0 0 0;
+    }
+    #sliderFirst__left-button{
+        left: 12px;
+        z-index: 1;
+    }
+    #sliderFirst__right-button{
+        right: 11px;
+        z-index: 1;
+    }
+
+    /* advantages */
+    .advantages-left {
+        width:90%;
+        margin: 15px auto 0;
+        float: none;
+        display: block;
+        padding: 0 10px;
+    }
+    .advantages-right {
+        margin: 0 auto;
+        float: none;
+        display: block;
+        padding: 0 10px;
+        width:90%;
+    }
+    .advantages-img, .advantages-bgShadow{
+        background: none;
+    }
+    /* contact */
+    .contact-block{
+        width: 300px;
+        text-align: center;
+    }
+    .contact-email{
+        display: block;
+        margin: 0;
+    }
+    .contact-phone{
+        display: block;
+        margin: 20px 0 0;
+    }
+    /* subscription */
+    .subscription-inputBlock--middle{
+        width: 300px;
+        text-align: center;
+    }
+    .footer-text{
+        text-align: center;
+    }
 }
