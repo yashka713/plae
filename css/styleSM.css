@@ -1,5 +1,84 @@
 /* media query for SM-size */
 
 @media screen and (max-width: 768px) {
+    .wrapper {
+        max-width: 768px;
+    }
 
+    /* about */
+    .about-right {
+        position: relative;
+        width: 100%;
+        transition: 0.7s;
+    }
+
+    .about-left {
+        position: absolute;
+        width: 100%;
+        height: 800px;
+        z-index: 1;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .about-leftTitle {
+        margin: 35px 0 0 0;
+    }
+
+    .about-paragraph {
+        padding: 5px 20px;
+    }
+
+    /* reviewFirst */
+    .reviewFirst-right {
+        margin: 20px 0 0 0;
+    }
+
+    .reviewFirst-rightTitle {
+        font-size: 26px;
+    }
+    .reviewFirst-rightText{
+        font-size: 17px;
+        margin: 14px 0 0 0;
+        transition: 0.7s;
+    }
+    .quoteOpen{
+        display: none;
+        transition: 0.7s;
+    }
+    .quoteClose{
+        display: none;
+        transition: 0.7s;
+    }
+    /* reviewLast */
+    .reviewLast-textWrapper {
+        margin-top: 60px;
+        transition: 0.7s;
+    }
+    .reviewLast-leftText{
+        font-size: 20px;
+    }
+    .reviewLast-author{
+        margin: 51px 0 0 -22px;
+    }
+    /* slider */
+    #sliderFirst {
+        width: 480px;
+    }
+    #sliderFirst__left-button{
+        left: -20px;
+    }
+    #sliderFirst__right-button{
+        right: -20px;
+    }
+    #sliderFirst__img{
+        margin: 33px 0 0 0;
+    }
+    /* advantages */
+    .advantages-left {
+        margin-left: 20px;
+    }
+    .advantages-right {
+        margin:0 20px 0 -40px;
+    }
 }

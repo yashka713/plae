@@ -6,11 +6,12 @@
     <title>Plae</title>
     <link rel="shortcut icon" href="icon.gif">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/grid.css">
+    <!--<link rel="stylesheet" href="css/grid.css">-->
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <!--Style for media query-->
     <link rel="stylesheet" href="css/styleMD.css">
+    <link rel="stylesheet" href="css/styleSM.css">
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -59,7 +60,7 @@
     <a id='about'></a>
 
     <div class="wrapper">
-        <div class="about-left col-md-6">
+        <div class="about-left">
             <h2 class="about-leftTitle">About Plae</h2>
 
             <div class="about-leftText">
@@ -83,7 +84,7 @@
                 </span>
             </div>
         </div>
-        <div class="about-right col-md-6">
+        <div class="about-right">
             <img src="img/About.jpg" alt="About" class="about-rightImg">
         </div>
     </div><!--End about wrapper-->
@@ -137,6 +138,7 @@
 <div class="clearfix"></div>
 <div class="slider">
     <a id="slider"></a>
+
     <div class="wrapper">
         <div class="slider-textBlock">
             <p class="slider-title">The Range</p>
@@ -144,9 +146,9 @@
             <p class="slider-text">View the styles available now from select stockists</p>
         </div>
         <div id="sliderFirst">
-            <div id="sliderFirst__left-button"></div>
-            <div id="sliderFirst__img"></div>
-            <div id="sliderFirst__right-button"></div>
+            <div id="sliderFirst__left-button" class="col-md-2"></div>
+            <div id="sliderFirst__img" class="col-md-8"></div>
+            <div id="sliderFirst__right-button" class="col-md-2"></div>
         </div>
         <div class="slider-description">
             <p class="slider-name">TY</p>
@@ -157,65 +159,69 @@
 </div><!--End slider-->
 <article class="advantages">
     <a id="advantages"></a>
+
     <div class="wrapper">
-        <div class="advantages-textBlock">
-            <h2 class="advantages-title">Why Plae?</h2>
-            <p class="advantages-text">Some of the features that make Plae shoes so good for kids</p>
-        </div>
-        <div class="advantages-img">
-            <div class="advantages-left">
-                <div class="advantages-items pullTab">
-                    <h6 class="advantages-itemsHeader">Pull Tab</h6>
+        <div class="advantages-img col-md-12">
+            <div class="advantages-bgShadow">
+                <div class="advantages-textBlock">
+                    <h2 class="advantages-title">Why Plae?</h2>
+
+                    <p class="advantages-text">Some of the features that make Plae shoes so good for kids</p>
+                </div>
+
+                <div class="advantages-left">
+                    <div class="advantages-items pullTab">
+                        <h6 class="advantages-itemsHeader">Pull Tab</h6>
                     <span class="advantages-itemsText">makes it easy for little hands and fingers to get their
                         shoes on.</span>
-                </div>
-                <div class="advantages-items shockAbsorption">
-                    <h6 class="advantages-itemsHeader">Shock Absorption</h6>
+                    </div>
+                    <div class="advantages-items shockAbsorption">
+                        <h6 class="advantages-itemsHeader">Shock Absorption</h6>
                     <span class="advantages-itemsText">removable ECO-ORTHOLITE® anti-microbial, anti-bacterial insole,
                         made from castor beans, provides superior protection with renewable resources.</span>
-                </div>
-                <div class="advantages-items customFit">
-                    <h6 class="advantages-itemsHeader">Custom Fit & Style</h6>
+                    </div>
+                    <div class="advantages-items customFit">
+                        <h6 class="advantages-itemsHeader">Custom Fit & Style</h6>
                     <span class="advantages-itemsText">interchangeable tabs come in S,M,L,XL sizes to accommodate
                         instep widths and allows kids to make it their own with different color, material and print
                         options. Plae shoes also have the ability to fit AFO orthotic braces.</span>
-                </div>
-                <div class="advantages-items ecoFriendly">
-                    <h6 class="advantages-itemsHeader">Eco-Friendly</h6>
+                    </div>
+                    <div class="advantages-items ecoFriendly">
+                        <h6 class="advantages-itemsHeader">Eco-Friendly</h6>
                     <span class="advantages-itemsText">made in a solar powered, fair labour factory using recycled milk
                         jugs (PET), ISO certified leathers, and water-based glues. </span>
+                    </div>
                 </div>
-            </div>
-            <div class="advantages-bgShoes">
-                <div class="advantages-bgShadow">
-                </div>
-            </div>
-            <div class="advantages-right">
-                <div class="advantages-items machineWashable">
-                    <h6 class="advantages-itemsHeader">Machine Washable*</h6>
-                    <span class="advantages-itemsText">for when kids get dirty. </span>
-                </div>
-                <div class="advantages-items anatomicalForm">
-                    <h6 class="advantages-itemsHeader">Anatomical Form</h6>
+                <!--<div class="advantages-bgShoes">-->
+                <!--<div class="advantages-bgShadow">-->
+                <!--</div>-->
+                <!--</div>-->
+                <div class="advantages-right">
+                    <div class="advantages-items machineWashable">
+                        <h6 class="advantages-itemsHeader">Machine Washable*</h6>
+                        <span class="advantages-itemsText">for when kids get dirty. </span>
+                    </div>
+                    <div class="advantages-items anatomicalForm">
+                        <h6 class="advantages-itemsHeader">Anatomical Form</h6>
                     <span class="advantages-itemsText">specially engineered sole follows the natural contour of a
                         child’s foot - which is mostly cartilage.</span>
-                </div>
-                <div class="advantages-items flexibleSole">
-                    <h6 class="advantages-itemsHeader">Flexible Sole</h6>
+                    </div>
+                    <div class="advantages-items flexibleSole">
+                        <h6 class="advantages-itemsHeader">Flexible Sole</h6>
                     <span class="advantages-itemsText">promotes natural movement by allowing for a free range of
                         movement.</span>
-                </div>
-                <div class="advantages-items passiveTraction">
-                    <h6 class="advantages-itemsHeader">Passive Traction</h6>
+                    </div>
+                    <div class="advantages-items passiveTraction">
+                        <h6 class="advantages-itemsHeader">Passive Traction</h6>
                     <span class="advantages-itemsText">promotes natural movement by providing grip on loose earth
                         without compromising contact on hard surfaces.</span>
-                </div>
-                <div class="advantages-items toeGuard">
-                    <h6 class="advantages-itemsHeader">Toe Guard</h6>
-                    <span class="advantages-itemsText">protects both the foot and shoe from toe drag.</span>
+                    </div>
+                    <div class="advantages-items toeGuard">
+                        <h6 class="advantages-itemsHeader">Toe Guard</h6>
+                        <span class="advantages-itemsText">protects both the foot and shoe from toe drag.</span>
+                    </div>
                 </div>
             </div>
-
         </div>
         <div class="clearfix"></div>
     </div><!--End advantages wrapper-->

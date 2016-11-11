@@ -1,12 +1,26 @@
 /* media query for MD-size */
 
+@media screen and (max-width: 1280px) {
+    .advantages-img {
+        background-position: center;
+    }
+
+    .advantages-bgShadow {
+        background: rgba(0, 0, 0, 0.03);
+    }
+}
+
 @media screen and (max-width: 992px) {
+    .wrapper{
+        max-width: 992px;
+    }
     /* MENU */
     .menu {
         display: none;
     }
 
     /* about */
+
     .about-leftText {
         width: 100%;
         margin: 24px 0 0 0;
@@ -25,45 +39,81 @@
     .about-paragraph > br {
         display: none;
     }
+    .about-right{
+        transition: none !important;
+    }
 
     /* reviewFirst */
-    .reviewFirst-rightTextBlock{
+    .reviewFirst-rightTextBlock {
         width: 90%;
         margin-top: 10px;
         transition: 0.7s;
+        text-align: center;
     }
+
     .reviewFirst-rightTitle {
         margin: 0 0 0 16px;
         transition: 0.7s;
     }
-    .quoteOpen-reviewFirst--position{
+
+    .quoteOpen-reviewFirst--position {
         top: 0;
         left: 51px;
         transition: 0.7s;
     }
+
     .quoteClose-reviewFirst--position {
         bottom: -12px;
         right: 36px;
         transition: 0.7s;
     }
-    .reviewFirst-rightAuthor{
+
+    .reviewFirst-rightAuthor {
         margin-top: 30px;
         transition: 0.7s;
     }
+
     /* reviewLast */
-    .reviewLast-textWrapper{
+    .reviewLast-textWrapper {
         margin-top: 140px;
         transition: 0.7s;
 
     }
+
     .quoteOpen-reviewLast--position {
         top: -20px;
         left: 55px;
         transition: 0.7s;
     }
+
     .quoteClose-reviewLast--position {
         bottom: -20px;
         right: 50px;
         transition: 0.7s;
+    }
+
+    /* slider */
+    #sliderFirst__left-button {
+        left: -5px;
+    }
+
+    #sliderFirst__right-button {
+    right: 5px;
+    }
+    /*  */
+    .address-block {
+        width: 90%;
+        margin:10px auto;
+        padding: 15px 10px 0;
+        text-align: center;
+    }
+    .address-shop {
+        margin: 40px 0 0 0;
+        width: 150px;
+        height: 150px;
+        float: none;
+        text-align: left;
+        display: inline-block;
+        font-family: yantramanavthin, sans-serif;
     }
 }
