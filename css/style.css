@@ -20,6 +20,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
+    z-index: 5000;
 }
 
 .menu-item {
@@ -36,6 +37,7 @@
     width: 11px;
     height: 11px;
     margin-bottom: 5px;
+    margin-left: -1px;
 }
 
 /* HEADER */

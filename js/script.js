@@ -2,19 +2,18 @@
  * Created by Ярик on 09.11.2016.
  */
 "use strict";
+/* menu */
 $(document).ready(function(){
     $("#menu").on("click","a", function (event) {
-        //отменяем стандартную обработку нажатия по ссылке
         event.preventDefault();
-        //забираем идентификатор бока с атрибута href
         var id  = $(this).attr('href'),
-        //узнаем высоту от начала страницы до блока на который ссылается якорь
         top = $(id).offset().top;
-        //анимируем переход на расстояние - top за 1500 мс
         $('body,html').animate({scrollTop: top}, 1500);
     });
 });
 /*slider*/
+var leftNarrow = document.getElementById('sliderFirst__left-button');
+var rightNarrow = document.getElementById('sliderFirst__right-button');
 var sliderFirst = {
     slides:[
         {img:'img/shoes/Ty_N_Steel.jpg', title: 'TY', w:446,h:237,position:1},
@@ -30,13 +29,13 @@ var sliderFirst = {
         if(obj.title == "CAMILLE"){
             document.getElementById("sliderFirst").style.marginTop = 0+"px";
             document.getElementById("sliderFirst").style.marginBottom = 200+"px";
-            document.getElementById("sliderFirst__left-button").style.top = 253+"px";
-            document.getElementById("sliderFirst__right-button").style.top = 253+"px";
+            leftNarrow.style.top = 253+"px";
+            rightNarrow.style.top = 253+"px";
         }else{
             document.getElementById("sliderFirst").style.marginTop = 100+"px";
             document.getElementById("sliderFirst").style.marginBottom = 0+"px";
-            document.getElementById("sliderFirst__left-button").style.top = 153+"px";
-            document.getElementById("sliderFirst__right-button").style.top = 153+"px";
+            leftNarrow.style.top = 153+"px";
+            rightNarrow.style.top = 153+"px";
         }
         slide.style.backgroundImage = "url("+obj.img+")";
         slide.style.width = obj.w+"px";
@@ -48,15 +47,49 @@ var sliderFirst = {
 
     },
     left: function() { // крутим на один кадр влево
-        console.log('крутим на один кадр влево');
         this.frame--;
         if(this.frame < 0) this.frame = this.slides.length-1;
         this.set(this.slides[this.frame]);
     },
     right: function() { // крутим на один кадр вправо
-        console.log('крутим на один кадр вправо');
         this.frame++;
         if(this.frame == this.slides.length) this.frame = 0;
         this.set(this.slides[this.frame]);
     }
+};
+
+leftNarrow.addEventListener('click', function () {
+    sliderFirst.left();
+});
+rightNarrow.addEventListener('click', function () {
+    sliderFirst.right();
+});
+
+/* scrolling */
+window.onscroll = function() {
+
+    var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+    var menuItem;
+    var menuHeader = document.body.getElementsByClassName('menu-header')[0];
+    var menuAbout = document.body.getElementsByClassName('menu-about')[0];
+    var menuReviewFirst = document.body.getElementsByClassName('menu-reviewFirst')[0];
+    var menuSlider = document.body.getElementsByClassName('menu-slider')[0];
+    var menuAdvantages = document.body.getElementsByClassName('menu-advantages')[0];
+    var menuAddress = document.body.getElementsByClassName('menu-address')[0];
+
+    if(+scrolled<=500){
+        menuItem = menuHeader;
+    }else if((+scrolled>500)&&(+scrolled<=1400)){
+        menuItem = menuAbout;
+    }else if((+scrolled>1400)&&(+scrolled<=3000)){
+        menuItem = menuReviewFirst;
+    }else if((+scrolled>3000)&&(+scrolled<=3750)){
+        menuItem = menuSlider;
+    }else if((+scrolled>3750)&&(+scrolled<=4600)){
+        menuItem = menuAdvantages;
+    }else{
+        menuItem = menuAddress;
+    }
+    document.body.getElementsByClassName('menu-active')[0].classList.remove('menu-active');
+    menuItem.classList.add('menu-active');
 };
