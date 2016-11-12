@@ -70,7 +70,8 @@
     font-size: 3.795em;
     text-align: center;
     font-family: nunitolight, sans-serif;
-    text-shadow: 0 0 30px rgba(0, 0, 0, 0.79)
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.79);
+    margin-left: 4px;
 }
 
 .header-text {
@@ -90,7 +91,7 @@
 }
 
 .header-inputBlock {
-    margin: 57px 0 0 2px;
+    margin: 58px 0 0 2px;
 }
 
 .header-inputBlock--middle {
@@ -350,9 +351,9 @@ a.inputBtn {
 
 .slider-text {
     text-align: center;
-    font-family: yantramanavlight, sans-serif;
-    font-size: 1.1em;
-    margin: 20px 0 0 28px;
+    font-family: yantramanavlight,sans-serif;
+    font-size: 1.095em;
+    margin: 20px 0 0 29px;
 }
 
 /* slider */
@@ -495,8 +496,8 @@ a.inputBtn {
 }
 
 .ecoFriendly {
-    margin-top: 11px;
-    padding: 12px 16px 8px 13px;
+    margin-top: 10px;
+    padding: 12px 12px 8px 13px;
 }
 
 /* right panel of advantages */
@@ -532,7 +533,7 @@ a.inputBtn {
 
 .toeGuard {
     margin-top: 12px;
-    padding: 11px 12px 6px 14px;
+    padding: 11px 12px 8px 14px;
 }
 
 /* address */
@@ -541,7 +542,7 @@ a.inputBtn {
     font-family: nunitolight, sans-serif;
     font-size: 1.9em;
     font-weight: bold;
-    margin: 92px 0 0 -9px;
+    margin: 93px 0 0 -8px;
 }
 
 .address-text {
@@ -577,37 +578,37 @@ a.inputBtn {
 .address-shopHeader {
     font-family: nunitoregular, sans-serif;
     font-size: 0.9em;
-    padding: 13px 0 0 15px;
+    padding: 13px 0 0 16px;
 }
 
 .address-shopStreet {
     font-family: yantramanavthin, sans-serif;
     font-size: 0.95em;
-    padding: 7px 0 0 12px;
+    padding: 7px 0 0 16px;
 }
 
 .address-shopCity {
     font-family: yantramanavthin, sans-serif;
     font-size: 0.945em;
-    padding: 8px 0 0 13px;
+    padding: 8px 0 0 16px;
 }
 
 .address-shopNumber {
     font-family: yantramanavthin, sans-serif;
     font-size: 0.945em;
-    padding: 7px 0 0 14px;
+    padding: 7px 0 0 16px;
 }
 
 .address-shopPhone {
     font-family: yantramanavthin, sans-serif;
     font-size: 0.945em;
-    padding: 7px 0 0 13px;
+    padding: 7px 0 0 16px;
 }
 
 .address-shopSite {
     font-family: yantramanavthin, sans-serif;
     font-size: 0.94em;
-    padding: 14px 0 0 14px;
+    padding: 14px 0 0 15px;
     color: #1faa50;
 }
 
@@ -625,7 +626,7 @@ a.inputBtn {
     text-align: center;
     font-family: yantramanavlight, sans-serif;
     font-size: 1.1em;
-    margin: 17px 0 0 -1px;
+    margin: 17px 0 0 1px;
 }
 
 .contact-block {
@@ -664,14 +665,14 @@ a.inputBtn {
     font-family: nunitolight, sans-serif;
     font-size: 1.9em;
     font-weight: bold;
-    margin: 0 0 0 2px;
+    margin: 0 0 0 4px;
 }
 
 .subscription-text {
     text-align: center;
     font-family: yantramanavlight, sans-serif;
     font-size: 1.379em;
-    margin: 15px 0 0 1px;
+    margin: 15px 0 0 3px;
 }
 
 .subscription-inputBlock {
@@ -697,8 +698,8 @@ a.inputBtn-subscription {
 /* footer */
 .footer-text {
     background-color: #dcdcdc;
-    padding: 13px 0 12px 36px;
+    padding: 13px 0 12px 37px;
     font-family: yantramanavlight, sans-serif;
     color: white;
-    font-size: 0.94em;
+    font-size: 0.939em;
 }
