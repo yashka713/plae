@@ -83,7 +83,7 @@
 }
 
 .header-text--firstLine {
-    margin: 28px 0 0 0;
+    margin: 27px 0 0 0;
 }
 
 .header-text--lastLine {
@@ -186,7 +186,7 @@ a.inputBtn {
 .reviewFirst-left {
     width: 50%;
     float: left;
-    margin-top: -2px;
+    margin-top: -3px;
 }
 
 .reviewFirst-left img {
@@ -233,7 +233,7 @@ a.inputBtn {
 
 .reviewFirst-rightTextBlock {
     width: 420px;
-    margin: 105px auto 0;
+    margin: 104px auto 0;
     transition: 0.7s;
 }
 
@@ -282,7 +282,7 @@ a.inputBtn {
 .reviewLast-right {
     width: 50%;
     float: right;
-    margin-top: -2px;
+    margin-top: -4px;
 }
 
 .reviewLast-right img {
@@ -291,7 +291,7 @@ a.inputBtn {
 }
 
 .reviewLast-textWrapper {
-    margin: 310px auto 0;
+    margin: 309px auto 0;
     position: relative;
     transition: 0.7s;
 }
@@ -328,12 +328,6 @@ a.inputBtn {
 .quoteClose-reviewLast--position {
     bottom: -12px;
     right: 145px;
-}
-
-.empty {
-    clear: both;
-    height: 1595px;
-    background-color: #00b3ee
 }
 
 /* textBlock */
@@ -686,13 +680,13 @@ a.inputBtn {
 }
 
 .inputMail--subscription {
-    padding-left: 42px;
-    width: 267px;
-    margin-left: 7px;
+    padding-left: 39px;
+    width: 271px;
+    margin-left: 9px;
 }
 
 a.inputBtn-subscription {
-    width: 86px;
+    width: 85px;
 }
 
 /* footer */
